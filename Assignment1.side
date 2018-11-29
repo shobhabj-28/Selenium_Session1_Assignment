@@ -1,0 +1,283 @@
+{
+  "id": "6b5c37d2-e866-4b75-801b-f13cd2a271ea",
+  "version": "1.1",
+  "name": "Assignment1",
+  "url": "https://magento.com",
+  "tests": [{
+    "id": "675515f3-12e3-4a86-b970-718c76136b94",
+    "name": "Test",
+    "commands": [{
+      "id": "8b77fde1-e622-44b0-aaf8-a01e418840e5",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "23cc37f2-ec66-4372-b732-9c784e055f2c",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1434x699",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "69f349d2-5e3a-412c-9aa8-adfa456cf519",
+      "comment": "",
+      "command": "click",
+      "target": "css=i.fa.fa-user",
+      "targets": [
+        ["css=i.fa.fa-user", "css"],
+        ["css=.fa-user", "css:finder"],
+        ["xpath=//nav[@id='block-header']/ul/li[9]/a/span/i", "xpath:idRelative"],
+        ["xpath=//li[9]/a/span/i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4958cf50-0cba-4e72-97b1-dcf30f961de2",
+      "comment": "",
+      "command": "click",
+      "target": "css=.buttons-set:nth-child(3) > .button",
+      "targets": [
+        ["css=.buttons-set:nth-child(3) > .button", "css:finder"],
+        ["xpath=//button[@type='button']", "xpath:attributes"],
+        ["xpath=//form[@id='login-form']/div/div/div[2]/div/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div/button", "xpath:position"]
+      ],
+      "value": "3000"
+    }, {
+      "id": "2b41466b-0e7a-4c0a-b41e-44a4764e9bc8",
+      "comment": "",
+      "command": "type",
+      "target": "id=firstname",
+      "targets": [
+        ["id=firstname", "id"],
+        ["name=firstname", "name"],
+        ["css=#firstname", "css"],
+        ["css=#firstname", "css:finder"],
+        ["xpath=//input[@id='firstname']", "xpath:attributes"],
+        ["xpath=//form[@id='form-validate']/div/ul/li/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div/input", "xpath:position"]
+      ],
+      "value": "shobha"
+    }, {
+      "id": "037b0e35-b792-42c5-aca3-132f48cba185",
+      "comment": "",
+      "command": "type",
+      "target": "id=lastname",
+      "targets": [
+        ["id=lastname", "id"],
+        ["name=lastname", "name"],
+        ["css=#lastname", "css"],
+        ["css=#lastname", "css:finder"],
+        ["xpath=//input[@id='lastname']", "xpath:attributes"],
+        ["xpath=//form[@id='form-validate']/div/ul/li/div/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": "b"
+    }, {
+      "id": "d9d1fe41-b317-4d1b-9044-8c84887eb440",
+      "comment": "",
+      "command": "click",
+      "target": "id=email_address",
+      "targets": [
+        ["id=email_address", "id"],
+        ["name=email", "name"],
+        ["css=#email_address", "css"],
+        ["css=#email_address", "css:finder"],
+        ["xpath=//input[@id='email_address']", "xpath:attributes"],
+        ["xpath=//form[@id='form-validate']/div/ul/li[2]/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "58924acf-d7bc-4a9c-8164-794bf2880592",
+      "comment": "",
+      "command": "type",
+      "target": "id=email_address",
+      "targets": [
+        ["id=email_address", "id"],
+        ["name=email", "name"],
+        ["css=#email_address", "css"],
+        ["css=#email_address", "css:finder"],
+        ["xpath=//input[@id='email_address']", "xpath:attributes"],
+        ["xpath=//form[@id='form-validate']/div/ul/li[2]/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "shobha.mce2003@gmail.com"
+    }, {
+      "id": "7f0e4e58-9f03-4b2b-bf90-7588d03925fc",
+      "comment": "",
+      "command": "click",
+      "target": "id=country",
+      "targets": [
+        ["id=country", "id"],
+        ["name=country", "name"],
+        ["css=#country", "css"],
+        ["css=#country", "css:finder"],
+        ["xpath=//select[@id='country']", "xpath:attributes"],
+        ["xpath=//form[@id='form-validate']/div/ul/li[3]/div/div/div/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "570db2c1-e96f-442c-ae97-6f403fb47a38",
+      "comment": "",
+      "command": "select",
+      "target": "id=country",
+      "targets": [],
+      "value": "label=India"
+    }, {
+      "id": "1879a575-8200-490c-aaab-f3ee7a4488f0",
+      "comment": "",
+      "command": "click",
+      "target": "css=option[value=\"IN\"]",
+      "targets": [
+        ["css=option[value=\"IN\"]", "css"],
+        ["css=option:nth-child(101)", "css:finder"],
+        ["xpath=//option[@value='IN']", "xpath:attributes"],
+        ["xpath=//select[@id='country']/option[101]", "xpath:idRelative"],
+        ["xpath=//option[101]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3d6aeb70-be94-47f0-84a2-a028be1be480",
+      "comment": "",
+      "command": "click",
+      "target": "id=customer_company_type",
+      "targets": [
+        ["id=customer_company_type", "id"],
+        ["name=company_type", "name"],
+        ["css=#customer_company_type", "css"],
+        ["css=#customer_company_type", "css:finder"],
+        ["xpath=//select[@id='customer_company_type']", "xpath:attributes"],
+        ["xpath=//form[@id='form-validate']/div/ul/li[4]/div/div/select", "xpath:idRelative"],
+        ["xpath=//li[4]/div/div/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ad970e6d-1eb7-4ce9-aeac-f3e46612ed4c",
+      "comment": "",
+      "command": "select",
+      "target": "id=customer_company_type",
+      "targets": [],
+      "value": "label=Is a merchant who sells online"
+    }, {
+      "id": "1e95395c-be1c-4397-9567-452d63035bd3",
+      "comment": "",
+      "command": "click",
+      "target": "css=option[value=\"selling\"]",
+      "targets": [
+        ["css=option[value=\"selling\"]", "css"],
+        ["css=#customer_company_type > option:nth-child(2)", "css:finder"],
+        ["xpath=//option[@value='selling']", "xpath:attributes"],
+        ["xpath=//select[@id='customer_company_type']/option[2]", "xpath:idRelative"],
+        ["xpath=//li[4]/div/div/select/option[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8c611887-fb38-433a-b221-6fd3bdf70d95",
+      "comment": "",
+      "command": "click",
+      "target": "id=customer_individual_role",
+      "targets": [
+        ["id=customer_individual_role", "id"],
+        ["name=individual_role", "name"],
+        ["css=#customer_individual_role", "css"],
+        ["css=#customer_individual_role", "css:finder"],
+        ["xpath=//select[@id='customer_individual_role']", "xpath:attributes"],
+        ["xpath=//form[@id='form-validate']/div/ul/li[4]/div[2]/div/select", "xpath:idRelative"],
+        ["xpath=//div[2]/div/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "514b3e6e-f776-44d9-823e-11c4a7b6ebaf",
+      "comment": "",
+      "command": "select",
+      "target": "id=customer_individual_role",
+      "targets": [],
+      "value": "label=Technical/developer"
+    }, {
+      "id": "49390694-af46-4915-bc87-f76eecf9fca6",
+      "comment": "",
+      "command": "click",
+      "target": "css=option[value=\"technical/developer\"]",
+      "targets": [
+        ["css=option[value=\"technical/developer\"]", "css"],
+        ["css=#customer_individual_role > option:nth-child(3)", "css:finder"],
+        ["xpath=//option[@value='technical/developer']", "xpath:attributes"],
+        ["xpath=//select[@id='customer_individual_role']/option[3]", "xpath:idRelative"],
+        ["xpath=//div[2]/div/select/option[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5c5f6e84-b27d-487e-adaf-f47445878dc8",
+      "comment": "",
+      "command": "click",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//form[@id='form-validate']/div[3]/ul/li/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "783dda46-8234-47e7-be04-2d3e1b03e8bc",
+      "comment": "",
+      "command": "type",
+      "target": "id=password",
+      "targets": [
+        ["id=password", "id"],
+        ["name=password", "name"],
+        ["css=#password", "css"],
+        ["css=#password", "css:finder"],
+        ["xpath=//input[@id='password']", "xpath:attributes"],
+        ["xpath=//form[@id='form-validate']/div[3]/ul/li/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div/div[2]/input", "xpath:position"]
+      ],
+      "value": "Welcome123"
+    }, {
+      "id": "10e1b87b-c815-408f-bba5-5c35b9d4db54",
+      "comment": "",
+      "command": "type",
+      "target": "id=confirmation",
+      "targets": [
+        ["id=confirmation", "id"],
+        ["name=confirmation", "name"],
+        ["css=#confirmation", "css"],
+        ["css=#confirmation", "css:finder"],
+        ["xpath=//input[@id='confirmation']", "xpath:attributes"],
+        ["xpath=//form[@id='form-validate']/div[3]/ul/li/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//li/div[2]/div/input", "xpath:position"]
+      ],
+      "value": "Welcome123"
+    }, {
+      "id": "9c198114-a313-4a84-b557-e50db29f3695",
+      "comment": "",
+      "command": "click",
+      "target": "id=agree_terms",
+      "targets": [
+        ["id=agree_terms", "id"],
+        ["css=#agree_terms", "css"],
+        ["css=#agree_terms", "css:finder"],
+        ["xpath=//input[@id='agree_terms']", "xpath:attributes"],
+        ["xpath=//form[@id='form-validate']/div[4]/ul/li/div/input", "xpath:idRelative"],
+        ["xpath=//div[4]/ul/li/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "1eeea246-3ffd-499f-b828-dcdd98119359",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["675515f3-12e3-4a86-b970-718c76136b94"]
+  }],
+  "urls": ["https://magento.com/"],
+  "plugins": []
+}
